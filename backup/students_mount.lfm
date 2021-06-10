@@ -1,0 +1,51 @@
+object Form5: TForm5
+  Left = 376
+  Height = 500
+  Top = 225
+  Width = 409
+  Caption = 'Form5'
+  ClientHeight = 500
+  ClientWidth = 409
+  LCLVersion = '2.0.6.0'
+  object Find_Mount_Button: TButton
+    Left = 128
+    Height = 40
+    Top = 104
+    Width = 160
+    Caption = 'Найти'
+    OnClick = Find_Mount_ButtonClick
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 272
+    Height = 33
+    Top = 48
+    Width = 80
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+  object StaticText1: TStaticText
+    Left = 32
+    Height = 41
+    Top = 47
+    Width = 144
+    Caption = 'Введите количество '#10'студентов'
+    TabOrder = 2
+  end
+  object Edit2: TEdit
+    Left = 272
+    Height = 33
+    Top = 258
+    Width = 80
+    TabOrder = 3
+    Text = 'Edit2'
+  end
+  object StaticText2: TStaticText
+    Left = 32
+    Height = 59
+    Top = 232
+    Width = 220
+    Caption = 'Количество студентов более'#10'заданного обучается'#10' в стольких группах:'
+    TabOrder = 4
+  end
+end

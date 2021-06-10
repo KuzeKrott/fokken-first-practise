@@ -1,0 +1,60 @@
+object Form4: TForm4
+  Left = 130
+  Height = 500
+  Top = 300
+  Width = 409
+  Caption = 'Найти однофамильцев'
+  ClientHeight = 500
+  ClientWidth = 409
+  LCLVersion = '2.0.6.0'
+  object StaticText1: TStaticText
+    Left = 160
+    Height = 17
+    Top = 24
+    Width = 232
+    Caption = 'Введите данные, чтобы найти '
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 160
+    Height = 33
+    Top = 48
+    Width = 230
+    TabOrder = 1
+  end
+  object StaticText2: TStaticText
+    Left = 18
+    Height = 17
+    Top = 48
+    Width = 72
+    Caption = 'Фамилия:'
+    TabOrder = 2
+  end
+  object StaticText3: TStaticText
+    Left = 18
+    Height = 48
+    Top = 216
+    Width = 134
+    Caption = 'Найденные'#10'однофамильцы:'
+    TabOrder = 3
+  end
+  object Find_Surname_Button: TButton
+    Left = 80
+    Height = 41
+    Top = 96
+    Width = 240
+    Caption = 'Найти'
+    OnClick = Find_Surname_ButtonClick
+    TabOrder = 4
+  end
+  object Memo1: TMemo
+    Left = 240
+    Height = 90
+    Top = 216
+    Width = 150
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 5
+  end
+end

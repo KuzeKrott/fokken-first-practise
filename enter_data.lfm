@@ -1,0 +1,96 @@
+object Form2: TForm2
+  Left = 942
+  Height = 497
+  Top = 178
+  Width = 409
+  Caption = 'Ввод данных'
+  ClientHeight = 497
+  ClientWidth = 409
+  LCLVersion = '2.0.6.0'
+  object Edit1: TEdit
+    Left = 168
+    Height = 33
+    Top = 112
+    Width = 184
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 168
+    Height = 33
+    Top = 167
+    Width = 184
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 168
+    Height = 33
+    Top = 223
+    Width = 184
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 168
+    Height = 33
+    Top = 279
+    Width = 184
+    TabOrder = 3
+  end
+  object Record_Data_Button: TButton
+    Left = 40
+    Height = 57
+    Top = 351
+    Width = 312
+    Caption = 'Записать'
+    OnClick = Record_Data_ButtonClick
+    TabOrder = 4
+  end
+  object StaticText1: TStaticText
+    Left = 40
+    Height = 17
+    Top = 112
+    Width = 72
+    Caption = 'Фамилия'
+    TabOrder = 5
+  end
+  object StaticText2: TStaticText
+    Left = 40
+    Height = 17
+    Top = 167
+    Width = 65
+    Caption = 'Имя'
+    TabOrder = 6
+  end
+  object StaticText3: TStaticText
+    Left = 40
+    Height = 33
+    Top = 223
+    Width = 113
+    Caption = 'Индекс группы'
+    TabOrder = 7
+  end
+  object StaticText4: TStaticText
+    Left = 40
+    Height = 17
+    Top = 279
+    Width = 65
+    Caption = 'Рейтинг'
+    TabOrder = 8
+  end
+  object Close_Button: TButton
+    Left = 40
+    Height = 33
+    Top = 423
+    Width = 312
+    Caption = 'Закрыть'
+    OnClick = Close_ButtonClick
+    TabOrder = 9
+  end
+  object StaticText5: TStaticText
+    Left = 108
+    Height = 25
+    Top = 56
+    Width = 244
+    Caption = 'Введите данные, чтобы добавить'
+    TabOrder = 10
+  end
+end

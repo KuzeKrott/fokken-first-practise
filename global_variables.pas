@@ -11,10 +11,10 @@ uses
 interface
 
 type Rec = record
-  Surname : string [22];
-  Name    : string [22];
-  Index   : string [22];
-  Rage    : string [22];
+  Surname : string [31];
+  Name    : string [31];
+  Index   : string [31];
+  Rage    : string [31];
   end;
 
 var

@@ -14,7 +14,7 @@ type Rec = record
   Surname : string [22];
   Name    : string [22];
   Index   : string [22];
-  Rage    : integer;
+  Rage    : string [22];
   end;
 
 var

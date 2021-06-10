@@ -39,16 +39,14 @@ implementation
 { TForm1 }
 
 procedure TForm1.Enter_Data_ButtonClick(Sender: TObject);
-var Size: integer;
+var Size1: integer;
 begin
      assignfile (F, 'students.dat');
-     {$I-}
-     Reset (F);
-     {$I+}
-     if ioresult = 0 then
+
+     if (fileexists('students.dat')) then
      begin
-       Size := filesize(F);
-       seek (F, Size);
+       Size1 := filesize(F);
+       seek (F, Size1);
      end
      else rewrite (F);
 
@@ -60,7 +58,7 @@ end;
 
 
 procedure TForm1.Delete_Data_ButtonClick(Sender: TObject);
-var Size: integer;
+var Size2: integer;
 begin
      assignfile (F, 'students.dat');
      {$I-}
@@ -68,8 +66,8 @@ begin
      {$I+}
      if ioresult = 0 then
      begin
-       Size := filesize(F);
-       seek (F, Size);
+       Size2 := filesize(F);
+       seek (F, Size2);
      end;
 
      Form3.Show;
@@ -78,7 +76,7 @@ end;
 
 
 procedure TForm1.Find_Surname_ButtonClick(Sender: TObject);
-var Size: integer;
+var Size3: integer;
 begin
      assignfile (F, 'students.dat');
      {$I-}
@@ -86,8 +84,8 @@ begin
      {$I+}
      if ioresult = 0 then
      begin
-       Size := filesize(F);
-       seek (F, Size);
+       Size3 := filesize(F);
+       seek (F, Size3);
      end;
 
      Form4.Show;
@@ -95,7 +93,7 @@ begin
 end;
 
 procedure TForm1.Students_Mount_ButtonClick(Sender: TObject);
-var Size: integer;
+var Size4: integer;
 begin
      assignfile (F, 'students.dat');
      {$I-}
@@ -103,33 +101,13 @@ begin
      {$I+}
      if ioresult = 0 then
      begin
-       Size := filesize(F);
-       seek (F, Size);
+       Size4 := filesize(F);
+       seek (F, Size4);
      end;
 
      //Form5.Show;
      //Form4.Edit1.Setfocus;
 end;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

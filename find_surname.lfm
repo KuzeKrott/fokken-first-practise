@@ -1,7 +1,7 @@
 object Form4: TForm4
-  Left = 130
+  Left = 109
   Height = 500
-  Top = 300
+  Top = 225
   Width = 409
   Caption = 'Найти однофамильцев'
   ClientHeight = 500

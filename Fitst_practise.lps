@@ -9,7 +9,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="22"/>
-        <UsageCount Value="32"/>
+        <UsageCount Value="39"/>
       </Unit0>
       <Unit1>
         <Filename Value="first_practise.pas"/>
@@ -18,10 +18,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="First_practise"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="61"/>
-        <CursorPos X="27" Y="107"/>
-        <UsageCount Value="32"/>
+        <TopLine Value="48"/>
+        <CursorPos X="5" Y="67"/>
+        <UsageCount Value="39"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -30,8 +29,8 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="Global_Variables"/>
         <EditorIndex Value="5"/>
-        <CursorPos X="23" Y="17"/>
-        <UsageCount Value="32"/>
+        <CursorPos X="25" Y="17"/>
+        <UsageCount Value="39"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
@@ -42,9 +41,8 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Enter_Data"/>
         <EditorIndex Value="4"/>
-        <TopLine Value="13"/>
-        <CursorPos X="41" Y="22"/>
-        <UsageCount Value="32"/>
+        <CursorPos X="28" Y="5"/>
+        <UsageCount Value="39"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit3>
@@ -55,10 +53,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Delete_Data"/>
-        <EditorIndex Value="2"/>
-        <TopLine Value="53"/>
-        <CursorPos X="26" Y="67"/>
-        <UsageCount Value="32"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="64"/>
+        <CursorPos X="35" Y="96"/>
+        <UsageCount Value="39"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit4>
@@ -70,8 +69,9 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Find_Surname"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="24" Y="55"/>
-        <UsageCount Value="27"/>
+        <TopLine Value="47"/>
+        <CursorPos X="46" Y="66"/>
+        <UsageCount Value="34"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit5>
@@ -82,10 +82,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Students_Mount"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="2"/>
-        <CursorPos X="3" Y="40"/>
-        <UsageCount Value="26"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="43" Y="21"/>
+        <UsageCount Value="33"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit6>
@@ -94,213 +93,213 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1379"/>
         <CursorPos Y="1407"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit7>
       <Unit8>
         <Filename Value="/usr/lib/lazarus/2.0.6/lcl/lclclasses.pp"/>
         <UnitName Value="LCLClasses"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="143"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit8>
       <Unit9>
         <Filename Value="/usr/lib/lazarus/2.0.6/lcl/include/customform.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="2300"/>
         <CursorPos Y="2326"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit9>
       <Unit10>
         <Filename Value="/usr/lib/lazarus/2.0.6/lcl/include/scrollingwincontrol.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="209"/>
         <CursorPos Y="237"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit10>
       <Unit11>
         <Filename Value="/usr/lib/lazarus/2.0.6/lcl/include/customcontrol.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="57"/>
         <CursorPos Y="85"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit11>
       <Unit12>
         <Filename Value="/usr/lib/lazarus/2.0.6/lcl/include/wincontrol.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="6483"/>
         <CursorPos Y="6510"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit12>
       <Unit13>
         <Filename Value="/usr/lib/lazarus/2.0.6/lcl/include/control.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="4247"/>
         <CursorPos Y="4275"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit13>
       <Unit14>
         <Filename Value="/usr/lib/lazarus/2.0.6/lcl/include/screen.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="488"/>
         <CursorPos Y="514"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit14>
       <Unit15>
         <Filename Value="/usr/lib/lazarus/2.0.6/lcl/include/intfbasewinapi.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1676"/>
         <CursorPos Y="1698"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit15>
       <Unit16>
         <Filename Value="/usr/lib/lazarus/2.0.6/lcl/include/monitor.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="51"/>
         <CursorPos Y="90"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit16>
       <Unit17>
         <Filename Value="/usr/lib/lazarus/2.0.6/lcl/include/winapi.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="538"/>
         <CursorPos Y="565"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit17>
       <Unit18>
         <Filename Value="/usr/lib/lazarus/2.0.6/lcl/interfaces/gtk2/gtk2winapi.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="6225"/>
         <CursorPos Y="6270"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit18>
       <Unit19>
         <Filename Value="/usr/lib/lazarus/2.0.6/lcl/interfaces/gtk2/gtk2proc.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="4558"/>
         <CursorPos Y="4589"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit19>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="31" Column="20"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="84" TopLine="64"/>
       </Position1>
       <Position2>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="33" Column="20"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="85" TopLine="64"/>
       </Position2>
       <Position3>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="42" Column="4"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="86" TopLine="64"/>
       </Position3>
       <Position4>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="39" Column="12"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="87" TopLine="64"/>
       </Position4>
       <Position5>
-        <Filename Value="first_practise.pas"/>
-        <Caret Line="8" Column="109"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="88" TopLine="64"/>
       </Position5>
       <Position6>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="39" Column="12"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="89" TopLine="64"/>
       </Position6>
       <Position7>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="40" Column="12"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="90" TopLine="64"/>
       </Position7>
       <Position8>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="39" Column="12"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="86" Column="33" TopLine="64"/>
       </Position8>
       <Position9>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="40" Column="12"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="72" TopLine="64"/>
       </Position9>
       <Position10>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="39" Column="12"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="73" TopLine="64"/>
       </Position10>
       <Position11>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="60" Column="78" TopLine="26"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="77" TopLine="64"/>
       </Position11>
       <Position12>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="60" Column="10" TopLine="2"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="84" TopLine="64"/>
       </Position12>
       <Position13>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="59" Column="10" TopLine="10"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="85" TopLine="64"/>
       </Position13>
       <Position14>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="60" Column="76" TopLine="32"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="86" TopLine="64"/>
       </Position14>
       <Position15>
-        <Filename Value="students_mount.pas"/>
-        <Caret Line="26" Column="44"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="87" TopLine="64"/>
       </Position15>
       <Position16>
-        <Filename Value="students_mount.pas"/>
-        <Caret Line="30" Column="44"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="88" TopLine="64"/>
       </Position16>
       <Position17>
-        <Filename Value="students_mount.pas"/>
-        <Caret Line="31" Column="44"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="93" Column="38" TopLine="64"/>
       </Position17>
       <Position18>
-        <Filename Value="students_mount.pas"/>
-        <Caret Line="5" Column="31"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="72" TopLine="64"/>
       </Position18>
       <Position19>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="74" Column="10" TopLine="47"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="73" TopLine="64"/>
       </Position19>
       <Position20>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="65" Column="17" TopLine="42"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="77" TopLine="64"/>
       </Position20>
       <Position21>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="44" Column="7" TopLine="29"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="84" TopLine="64"/>
       </Position21>
       <Position22>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="72" Column="29" TopLine="44"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="85" TopLine="64"/>
       </Position22>
       <Position23>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="69" Column="28" TopLine="39"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="86" TopLine="64"/>
       </Position23>
       <Position24>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="55" Column="6" TopLine="31"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="87" TopLine="64"/>
       </Position24>
       <Position25>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="80" Column="19" TopLine="52"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="88" TopLine="64"/>
       </Position25>
       <Position26>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="69" Column="14" TopLine="50"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="89" TopLine="64"/>
       </Position26>
       <Position27>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="76" Column="12" TopLine="53"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="90" TopLine="64"/>
       </Position27>
       <Position28>
-        <Filename Value="first_practise.pas"/>
-        <Caret Line="98" Column="19" TopLine="64"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="91" TopLine="64"/>
       </Position28>
       <Position29>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="78" Column="34" TopLine="44"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="92" TopLine="64"/>
       </Position29>
       <Position30>
-        <Filename Value="find_surname.pas"/>
-        <Caret Line="82" Column="10" TopLine="52"/>
+        <Filename Value="delete_data.pas"/>
+        <Caret Line="93" TopLine="64"/>
       </Position30>
     </JumpHistory>
     <RunParams>

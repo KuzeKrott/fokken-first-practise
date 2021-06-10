@@ -42,11 +42,10 @@ procedure TForm1.Enter_Data_ButtonClick(Sender: TObject);
 var Size1: integer;
 begin
      assignfile (F, 'students.dat');
-     {$I-}
-     Reset (F);
-     {$I+}
-     if ioresult = 0 then
+
+     if (fileexists('students.dat')) then
      begin
+       reset (F);
        Size1 := filesize(F);
        seek (F, Size1);
      end
@@ -110,26 +109,6 @@ begin
      //Form5.Show;
      //Form4.Edit1.Setfocus;
 end;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

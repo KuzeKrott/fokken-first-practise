@@ -45,8 +45,11 @@ var
   flag: boolean;
   number: longint;
   index: longint;
-  Surname3, Name3, Index3, Rage3: string [22];
+  Surname3, Name3, Index3, Rage3: string [31];
+  temp: integer;
+
 begin
+     Reset (F);
      flag := false;
      number := 0;
      index  := 0;
@@ -65,10 +68,38 @@ begin
            read(F, R);
        end
        else begin
-       flag := true;
-       break;
+           flag := true;
+           temp := filepos(F);
+           break;
        end;
      end;
+
+     if (EOF(F)) then begin
+          seek(F, filepos(F)-1);
+          truncate (F);
+          closefile(F);
+          flag := true;
+     end
+     else begin
+        if flag then begin
+            index := number;
+            temp := filesize(F);
+            while (not EOF(F)) do begin
+                  temp := filepos(f);
+                  read (F, R);
+                  seek (F, filepos(F)-2);
+                  write (F, R);
+                  seek (F, filepos(F)+1);
+                  temp := filepos(f);
+             end;
+
+             seek (F, filepos(F)-2);
+             truncate (F);
+             closefile(F);
+        end;
+     end;
+
+
 
      if (flag = false) then begin
        Edit1.Text := 'НЕТ ТАКОГО';
@@ -78,24 +109,10 @@ begin
        closefile(F);
      end
      else begin
-       index := number;
-       seek (F, index+1);
-       while (not EOF(F)) do begin
-         read (F, R);
-         seek (F, filepos(F)-2);
-         write (F, R);
-         seek (F, filepos(F)+2);
-       end;
-
-     seek (F, filepos(F)-1);
-     truncate (F);
-     closefile(F);
-
-     Edit1.Text := '';
-     Edit2.Text := '';
-     Edit3.Text := '';
-     Edit4.Text := '';
-
+       Edit1.Text := '';
+       Edit2.Text := '';
+       Edit3.Text := '';
+       Edit4.Text := '';
      end;
 end;
 

@@ -59,21 +59,5 @@ begin
      self.hide;
 end;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 end.
 

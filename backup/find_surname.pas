@@ -43,7 +43,7 @@ var
    flag: integer;
    sur_mas : array of string;
    s_n, s : longint;
-   search: string [22];
+   search: string [31];
 
 begin
    Memo1.clear;
